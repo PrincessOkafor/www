@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+main {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+}
+
+main {
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
+
+article,
+aside {
+    overflow-y: auto;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
